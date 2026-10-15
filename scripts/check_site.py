@@ -28,7 +28,8 @@ def check(directory='public', base='https://hexmSeeU.github.io/deep-learning-not
     base_url = urlsplit(base)
     prefix = base_url.path
     pages = {p.resolve(): Page(p.read_text()) for p in root.rglob('*.html')}
-    assert (root / 'posts/how-neural-networks-learn/index.html') in pages, 'First lesson missing'
+    for path in ('index.html', 'roadmap/index.html', 'posts/index.html', 'review/index.html'):
+        assert (root / path) in pages, f'Required framework page missing: {path}'
     count = 0
     for file, page in pages.items():
         path = file.relative_to(root).as_posix()

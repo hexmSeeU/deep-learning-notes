@@ -1,11 +1,9 @@
 # 项目约定
 
-本项目参照 hexmSeeU/aigc-notes，使用独立 GitHub 仓库 deep-learning-notes，Hugo + PaperMod 构建并通过 GitHub Pages 发布。
+本项目采用独立 GitHub 仓库 deep-learning-notes，Hugo + PaperMod 构建，通过 GitHub Pages 发布。
 
-学习主线：数据 → 前向 → loss → 反向 → 更新 → 评估。路线分为七个模块；课程只在完成正文、最小实现与自测之后作为正式文章发布。
+用户的学习方式优先：先逐步讲解并讨论，再根据对话内容整理笔记。网站当前只保留框架和候选路线；未讨论的课程、实验与自测不预写或发布。具体约定见 AGENTS.md。
 
-内容保存在 content/posts/<slug>/index.md。读者入口为首页、路线、文章、复习、归档与搜索。第一课保留无后端的浏览器参数更新实验，与 Python 共用目标函数与数据。
+未来笔记保存在 content/posts/<slug>/index.md。读者入口包括首页、路线、文章、复习、归档和搜索。课程列表为空是正常初始状态。
 
-依赖：Hugo 0.150.1 extended；PaperMod 固定到 d3768854d00ad003b0a8dbdba254ce9224377a01，与参考仓库一致。Python/Node 仅用于检查，PyTorch 为可选学习实验。
-
-CI 检查正文、梯度、JavaScript/Python 一致性，再验证根路径与 /deep-learning-notes/ 两种产物链接。只将 public/ 部署至 Pages。
+Hugo 固定为 0.150.1 extended，PaperMod 固定为 d3768854d00ad003b0a8dbdba254ce9224377a01。Python 仅用于内容与链接检查。CI 验证根路径和 /deep-learning-notes/ 子路径，部署产物为 public/。
