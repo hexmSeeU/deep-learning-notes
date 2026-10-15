@@ -17,4 +17,6 @@
 
 [第六篇：反向传播]({{< relref "/posts/backpropagation" >}}) 重点回顾反向计算的依赖顺序、共享节点的贡献汇总，以及同一个中间导数如何供多个输入复用。求导本身不会修改输入值。
 
+[第七篇：PyTorch autograd]({{< relref "/posts/pytorch-autograd" >}}) 重点区分前向记录、反向执行和梯度保存。结合计算图回顾 grad_fn、叶子与非叶子、梯度累加、no_grad 与 detach，以及 retain_grad、retain_graph、create_graph 的不同作用。第一章七篇笔记已根据讨论整理完成。
+
 之后根据我们的实际讨论，逐步记录讲清楚的问题、仍然困惑的地方，以及值得回顾的例子。私人学习记录请保存在公开仓库之外。
