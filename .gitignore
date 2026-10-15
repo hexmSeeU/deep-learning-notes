@@ -1,0 +1,10 @@
+public/
+resources/
+themes/PaperMod/
+.hugo_build.lock
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*-offline.zip
+*-source.zip
