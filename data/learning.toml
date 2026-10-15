@@ -1,0 +1,35 @@
+[[modules]]
+number = '01'
+title = '张量与自动求导'
+topics = 'shape · 广播 · 梯度 · 计算图'
+anchor = 'tensors'
+[[modules]]
+number = '02'
+title = '训练与优化'
+topics = '损失函数 · 优化器 · 学习率'
+anchor = 'optimization'
+[[modules]]
+number = '03'
+title = '网络基本组件'
+topics = '初始化 · 激活 · 残差 · 归一化'
+anchor = 'components'
+[[modules]]
+number = '04'
+title = 'Transformer 与注意力'
+topics = 'Q/K/V · mask · 位置编码'
+anchor = 'transformer'
+[[modules]]
+number = '05'
+title = 'LLM 的训练过程'
+topics = '预训练 · SFT · 偏好优化'
+anchor = 'llm-training'
+[[modules]]
+number = '06'
+title = '效率、显存与训练系统'
+topics = '混合精度 · FlashAttention · 分布式'
+anchor = 'systems'
+[[modules]]
+number = '07'
+title = 'Research 实验基本功'
+topics = 'baseline · 消融 · 复现 · 排错'
+anchor = 'research'

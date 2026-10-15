@@ -15,6 +15,8 @@
 - `content/review/`：以后根据讨论整理的复习内容，当前仅说明。
 - `archetypes/posts/index.md`：文章格式模板。
 - `layouts/`、`assets/`、`static/`：网站布局与样式。
+- `data/learning.toml`：首页候选学习地图，与路线页保持一致。
+- `docs/hero-artwork.md`：首页 AI 插画的提示词、来源与导出尺寸。
 - `scripts/`：主题准备、正文和链接检查。
 - `.github/workflows/pages.yml`：main 分支的检查和 Pages 发布。
 

@@ -1,5 +1,36 @@
-<article class="first-entry home-info">
-  <header class="entry-header"><p class="home-kicker">DEEP LEARNING NOTES</p><h1>{{ site.Params.homeInfoParams.Title }}</h1></header>
-  <div class="entry-content"><p>{{ site.Params.homeInfoParams.Content }}</p><p>先在对话中逐步讲清楚，再把共同讨论过的内容整理成笔记。课程尚未开始整理。</p></div>
-  <div class="home-links"><a href="{{ "roadmap/" | relURL }}">查看学习路线 →</a></div>
-</article>
+<section class="home-cover" aria-labelledby="home-title">
+  <div class="home-cover__copy">
+    <p class="eyebrow">DEEP LEARNING · FIELD NOTES</p>
+    <h1 id="home-title"><span>把深度学习，</span><span>一点点学明白。</span></h1>
+    <p class="home-cover__intro">从一个具体问题开始，补齐基础，<br class="desktop-break">慢慢建立做研究时用得上的理解。</p>
+    <a class="home-cta" href="{{ "roadmap/" | relURL }}">沿着路线，开始探索 <span aria-hidden="true">↗</span></a>
+    <div class="home-cover__footnote"><span aria-hidden="true"></span>先讨论，再记录；先理解，再向前。</div>
+  </div>
+  <figure class="home-cover__visual">
+    <img src="{{ "images/learning-landscape.webp" | relURL }}"
+      srcset="{{ "images/learning-landscape-900.webp" | relURL }} 900w, {{ "images/learning-landscape.webp" | relURL }} 1536w"
+      sizes="(max-width: 699px) calc(100vw - 40px), (max-width: 1200px) 55vw, 650px"
+      width="1536" height="1024" fetchpriority="high" decoding="async"
+      alt="青绿色等高线地形上，一条暖色轨迹缓缓向低处延伸，远处浮现网络节点与矩阵；以生成插画隐喻深度学习。">
+    <figcaption><span>FROM QUESTIONS TO UNDERSTANDING</span><span>AI 生成插画</span></figcaption>
+  </figure>
+</section>
+
+<section class="learning-map" aria-labelledby="learning-map-title">
+  <div class="section-heading"><div><p class="eyebrow">THE LEARNING MAP</p><h2 id="learning-map-title">从基础出发，沿着问题深入。</h2></div><a class="quiet-link" href="{{ "roadmap/" | relURL }}">完整路线 <span aria-hidden="true">↗</span></a></div>
+  <p class="section-intro">这是一张候选地图。具体从哪里开始、走多深，随我们的讨论逐步展开。</p>
+  <div class="module-grid">
+    {{ range site.Data.learning.modules }}
+    <a class="module" href="{{ "roadmap/" | relURL }}#{{ .anchor }}">
+      <span class="module__number">{{ .number }}</span><div><h3>{{ .title }}</h3><p>{{ .topics }}</p></div><span class="module__arrow" aria-hidden="true">↗</span>
+    </a>
+    {{ end }}
+    <div class="module module--note"><span class="module__asterisk" aria-hidden="true">✳</span><p>不赶进度。<br>让每一个“为什么”，都有机会讲清楚。</p></div>
+  </div>
+</section>
+
+<section class="notebook-heading" aria-labelledby="notebook-title"><div><p class="eyebrow">THE NOTEBOOK</p><h2 id="notebook-title">把讨论，留成可以回看的笔记。</h2></div></section>
+{{ if not (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+<div class="notebook-empty"><span class="notebook-empty__mark" aria-hidden="true">“</span><div><p>笔记从我们的第一场讨论开始。</p><span>这里暂时没有课程文章。先在对话里讲清楚，再把真正理解的内容慢慢留下来。</span></div><a href="{{ "review/" | relURL }}" class="quiet-link">关于复习 <span aria-hidden="true">↗</span></a></div>
+{{ end }}
+<div class="home-colophon"><span>深度学习基本功</span><span>保持好奇，循序渐进。</span></div>
