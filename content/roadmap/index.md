@@ -20,7 +20,7 @@
 
 1. [张量与 shape：模型里的数据是什么样的？]({{< relref "/posts/tensors-and-shapes" >}}) · 已讨论并发布
 2. [张量运算与广播：能运行，为什么还可能算错？]({{< relref "/posts/tensor-operations-and-broadcasting" >}}) · 已讨论并发布
-3. 矩阵乘法与线性层 · 待讨论
+3. [矩阵乘法与线性层：输入特征怎样变成输出？]({{< relref "/posts/matrix-multiplication-and-linear-layers" >}}) · 已讨论并发布
 4. 导数与梯度 · 待讨论
 5. 链式法则与计算图 · 待讨论
 6. 反向传播 · 待讨论

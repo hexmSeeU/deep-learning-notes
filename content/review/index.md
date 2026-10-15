@@ -9,4 +9,6 @@
 
 [第二篇：张量运算与广播]({{< relref "/posts/tensor-operations-and-broadcasting" >}}) 已根据讨论整理。重点回顾：右对齐不等于长度必须相等、`keepdim` 如何配合广播，以及为什么最后得到标量也不能证明 loss 算对了。
 
+[第三篇：矩阵乘法与线性层]({{< relref "/posts/matrix-multiplication-and-linear-layers" >}}) 已根据讨论整理。重点回顾：行列点积、PyTorch weight 的转置约定、最后一轴的特征变换、参数共享与参数量，以及线性层叠加的表达边界。
+
 之后根据我们的实际讨论，逐步记录讲清楚的问题、仍然困惑的地方，以及值得回顾的例子。私人学习记录请保存在公开仓库之外。
