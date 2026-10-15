@@ -23,7 +23,7 @@
 3. [矩阵乘法与线性层：输入特征怎样变成输出？]({{< relref "/posts/matrix-multiplication-and-linear-layers" >}}) · 已讨论并发布
 4. [导数与梯度：怎样描述函数的局部变化？]({{< relref "/posts/derivatives-and-gradients" >}}) · 已讨论并发布
 5. [链式法则与计算图：多步计算的导数怎样连接？]({{< relref "/posts/chain-rule-and-computational-graphs" >}}) · 已讨论并发布
-6. 反向传播 · 待讨论
+6. [反向传播：按什么顺序求导，怎样复用结果？]({{< relref "/posts/backpropagation" >}}) · 已讨论并发布
 7. PyTorch autograd · 待讨论
 
 - 实践目标：手算一次梯度，识别广播错误，对齐手算与自动求导。
