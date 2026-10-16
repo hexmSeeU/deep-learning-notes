@@ -19,4 +19,6 @@
 
 [第七篇：PyTorch autograd]({{< relref "/posts/pytorch-autograd" >}}) 重点区分前向记录、反向执行和梯度保存。结合计算图回顾 grad_fn、叶子与非叶子、梯度累加、no_grad 与 detach，以及 retain_grad、retain_graph、create_graph 的不同作用。第一章七篇笔记已根据讨论整理完成。
 
+[第二章 · 第一篇：从函数到训练]({{< relref "/posts/training-objective" >}}) 用房价预测串起参数、标签与平均损失。重点回顾：整体损失下降不要求每条样本都改善；训练目标、评价指标与泛化表现需要分别判断。
+
 之后根据我们的实际讨论，逐步记录讲清楚的问题、仍然困惑的地方，以及值得回顾的例子。私人学习记录请保存在公开仓库之外。
