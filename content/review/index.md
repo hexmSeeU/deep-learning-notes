@@ -25,4 +25,6 @@
 
 [第二章 · 第三篇：Mini-batch 与 SGD]({{< relref "/posts/mini-batch-and-sgd" >}}) 重点区分 batch size、更新 step、epoch 和有效 batch size；回顾 shuffle 如何保持样本配对，以及梯度累积为何要按样本数加权。
 
+[第二章 · 第四篇：Momentum]({{< relref "/posts/momentum" >}}) 重点回顾独立保存的动量状态、历史贡献的衰减，以及累积形式与平均形式的尺度差异。固定 β 时，累积形式学习率等于平均形式学习率乘 (1−β)。
+
 之后根据我们的实际讨论，逐步记录讲清楚的问题、仍然困惑的地方，以及值得回顾的例子。私人学习记录请保存在公开仓库之外。

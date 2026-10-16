@@ -35,7 +35,7 @@
 1. [从函数到训练：模型究竟在优化什么？]({{< relref "/posts/training-objective" >}}) · 已讨论并发布
 2. [梯度下降：怎样完成一次参数更新？]({{< relref "/posts/gradient-descent" >}}) · 已讨论并发布
 3. [Mini-batch 与 SGD：为什么不每次用全部数据？]({{< relref "/posts/mini-batch-and-sgd" >}}) · 已讨论并发布
-4. Momentum：为什么更新还需要“惯性”？ · 待讨论
+4. [Momentum：为什么更新还需要惯性？]({{< relref "/posts/momentum" >}}) · 已讨论并发布
 5. Adam：为什么不同参数可以有不同的更新尺度？ · 待讨论
 6. 学习率调度与 warmup：为什么步子要随时间变化？ · 待讨论
 7. 梯度裁剪：更新前为什么要限制梯度？ · 待讨论
