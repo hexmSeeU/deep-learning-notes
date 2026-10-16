@@ -23,4 +23,6 @@
 
 [第二章 · 第二篇：梯度下降]({{< relref "/posts/gradient-descent" >}}) 从手算更新到最小训练循环。重点回顾学习率与调整量、backward 与 step、no_grad 与 zero_grad，以及参数更新后为什么必须重新前向。
 
+[第二章 · 第三篇：Mini-batch 与 SGD]({{< relref "/posts/mini-batch-and-sgd" >}}) 重点区分 batch size、更新 step、epoch 和有效 batch size；回顾 shuffle 如何保持样本配对，以及梯度累积为何要按样本数加权。
+
 之后根据我们的实际讨论，逐步记录讲清楚的问题、仍然困惑的地方，以及值得回顾的例子。私人学习记录请保存在公开仓库之外。
