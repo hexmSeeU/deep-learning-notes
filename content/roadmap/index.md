@@ -36,7 +36,7 @@
 2. [梯度下降：怎样完成一次参数更新？]({{< relref "/posts/gradient-descent" >}}) · 已讨论并发布
 3. [Mini-batch 与 SGD：为什么不每次用全部数据？]({{< relref "/posts/mini-batch-and-sgd" >}}) · 已讨论并发布
 4. [Momentum：为什么更新还需要惯性？]({{< relref "/posts/momentum" >}}) · 已讨论并发布
-5. Adam：为什么不同参数可以有不同的更新尺度？ · 待讨论
+5. [Adam：为什么不同参数可以有不同的更新尺度？]({{< relref "/posts/adam" >}}) · 已讨论并发布
 6. 学习率调度与 warmup：为什么步子要随时间变化？ · 待讨论
 7. 梯度裁剪：更新前为什么要限制梯度？ · 待讨论
 8. 泛化与正则化：训练得更好，为什么不一定预测得更好？ · 待讨论
