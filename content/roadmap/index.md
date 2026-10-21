@@ -39,7 +39,7 @@
 5. [Adam：为什么不同参数可以有不同的更新尺度？]({{< relref "/posts/adam" >}}) · 已讨论并发布
 6. [学习率调度与 warmup：为什么步子要随时间变化？]({{< relref "/posts/learning-rate-scheduling-and-warmup" >}}) · 已讨论并发布
 7. [梯度裁剪：更新前为什么要限制梯度？]({{< relref "/posts/gradient-clipping" >}}) · 已讨论并发布
-8. 泛化与正则化：训练得更好，为什么不一定预测得更好？ · 待讨论
+8. [泛化与正则化：训练得更好，为什么不一定预测得更好？]({{< relref "/posts/generalization-and-regularization" >}}) · 已讨论并发布
 9. AdamW：weight decay 为什么需要单独处理？ · 待讨论
 10. 训练排错：模型没有学好，应该先查什么？ · 待讨论
 
