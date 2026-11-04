@@ -11,7 +11,7 @@ anchor = 'optimization'
 [[modules]]
 number = '03'
 title = '网络基本组件'
-topics = '初始化 · 激活 · 残差 · 归一化'
+topics = 'Linear · CNN · 归一化 · Embedding'
 anchor = 'components'
 [[modules]]
 number = '04'
